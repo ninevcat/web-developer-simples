@@ -1,0 +1,30 @@
+body{
+	font-size: 22px;
+	font-family:"宋体"
+	font-weight: bold;
+	font-style: normal;
+	text-align: left;
+}
+
+li{
+	list-style: none;
+}
+/*cursor:*/
+.num{
+	color: crimson;
+}
+.book{
+	width: 320px;
+	line-height: 60px;
+	font-family:"微软雅黑";
+	border-bottom: 2px dotted #eee;
+}
+.booklist{
+	width: 320px;
+	padding-bottom: 28px;
+	font-family:"微软雅黑";
+	border-bottom: 2px solid #eee;
+}
+.bookname:hover{
+	color: crimson;
+}
