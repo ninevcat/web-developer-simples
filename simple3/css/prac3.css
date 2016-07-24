@@ -1,0 +1,27 @@
+body{
+	font-family: "宋体";
+	font-size: 19px;
+}
+
+.em{
+	font-weight: bold;
+}
+
+.font_l{
+	font-size: 15px;
+	font-weight: bold;
+}
+input:checked{
+	color: blue;
+}
+td{
+	padding: 16px 0;
+}
+button{
+	background: #d853b7;
+	color: #e89cd5;
+	font-size: 20px;
+	border-style:none;
+	width: 123px;
+	height: 44px;
+}

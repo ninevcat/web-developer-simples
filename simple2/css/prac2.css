@@ -1,0 +1,21 @@
+body{
+	font-family: "宋体";
+}
+
+th{
+	background:#eee;
+	font-weight: bold;	
+	text-align:left;
+}
+
+.pay{
+	width:650px;
+	border-collapse:collapse;
+	line-height:160%;
+}
+	
+.pay th,.pay td{
+	border:1px solid #ccc;
+	padding:10px 0;
+	text-indent:1em;
+}

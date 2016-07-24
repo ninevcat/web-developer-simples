@@ -1,0 +1,23 @@
+div{
+	padding: 16px;
+}
+body{
+	font-family: "宋体";
+	font-size: 19px;
+	font-weight: bold;
+}
+button{
+	background: #d853b7;
+	color: #e89cd5;
+	font-size: 20px;
+	border-style:none;
+	width: 123px;
+	height: 44px;
+}
+.font_l{
+	font-size: 15px;
+	font-weight: bold;
+}
+.em{
+	font-weight: bold;
+}

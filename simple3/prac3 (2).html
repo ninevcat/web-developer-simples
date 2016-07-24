@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>prac3</title>
+		<link rel="stylesheet" type="text/css" href="css/prac3(2).css"/>
+	</head>
+	<body>
+		<form>
+			<fieldset style="border: 0;">
+				<div>
+					<label for="userimg">头像</label>
+				    <input type="file" class="em">	
+				</div>
+				<div>
+					<label for="nickname">昵称</label>
+				    <input type="text" id="nickname" value="">
+				</div>
+				<div>
+					<label for="degree">学历</label>
+				    <select id="degree">
+						<option value="大专">大专</option>
+						<option value="本科">本科</option>
+					</select>
+				</div>
+				<div>
+					<label for="sex_0">性别</label>
+					<span class="font_l">
+						<input type="radio" checked="checked" name="sex" id="male">
+						<label for="male">男</label>
+						<input type="radio" name="sex" id="female">
+						<label for="female">女</label>
+					</span>   
+				</div>
+				<div>
+					<label for="hobby">爱好</label>
+					<span class="font_l" id="hobby">
+						<input type="checkbox" checked="checked">
+						<label for="1">电影</label>
+						<input type="checkbox">
+						<label for="2">摄影</label>
+						<input type="checkbox">
+						<label for="3">音乐</label>
+						<input type="checkbox" checked="checked">
+						<label for="4">阅读</label>
+					</span>  
+				</div>
+				<div>
+					<label for="signal">签名</label>
+					<span class="font_l" id="signal">
+						<textarea style="width: 200px;height: 50px;"></textarea>
+		            	<p style="display: none;">200</p>
+					</span> 
+				    
+				</div>
+				<div>
+					<label style="display: ;">保存</label>
+					<button type="submit">保存</button>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

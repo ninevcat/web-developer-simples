@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>prac3</title>
+		<link rel="stylesheet" type="text/css" href="css/prac3.css"/>
+	</head>
+	<body>
+		<form>
+			<fieldset style="border: 0;">
+				<table>
+					<tr>
+						<td class="em">头像：</td>
+						<td>
+						    <input type="file" class="em" id="userimg">
+						</td>
+					</tr>
+		            <tr>
+						<td class="em">昵称：</td>
+						<td class="font_l">
+						    <input type="text" id="nickname" value="">
+						</td>
+					</tr>
+		            <tr>	
+						<td class="em">学历：</td>
+						<td class="font_l">
+							<select id="degree">
+								<option value="大专">大专</option>
+								<option value="本科">本科</option>
+							</select>
+						</td>
+					</tr>
+		            <tr>
+						<td class="em">性别：</td>	
+						<td class="font_l">
+							<input type="radio" checked="checked" name="sex" id="male">
+							<label for="male">男</label>
+							<input type="radio" name="sex" id="female">
+							<label for="female">女</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="em">爱好：</td>	
+						<td class="font_l">
+							<input type="checkbox" checked="checked" id="1">
+							<label for="1">电影</label>
+							<input type="checkbox" id="2">
+							<label for="2">摄影</label>
+							<input type="checkbox" id="3">
+							<label for="3">音乐</label>
+							<input type="checkbox" checked="checked" id="4">
+							<label for="4">阅读</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="em">签名：</td>
+						<td class="font_l">	
+		            	<textarea style="width: 200px;height: auto;"></textarea>
+		            	<p style="display: none;">200</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="em"></td>
+						<td class="font_l">	
+							<button type="submit">保存</button>
+						</td>
+					</tr>
+		            
+		        </table>   
+			</fieldset>
+		</form>
+	</body>
+</html>
