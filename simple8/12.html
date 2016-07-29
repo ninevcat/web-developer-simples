@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{height: 100%;width: 100%;}
+			.wrap{
+				width: 300px;
+				border: 1px solid #CCCCCC;
+				border-radius: 5px;
+				position: fixed;
+				top: 30%;
+				left: 40%;
+				
+			}
+			/*font-style
+			font-variant
+			font-weight
+			font-size/line-height
+			font-family*/
+			.head{	
+				background: #EEEEEE;
+				display: flex;
+				height: 40px;
+			}
+			.hd{
+				font: 14px "微软雅黑";
+			}
+			.hd.title{
+				width: 270px;
+				margin-top: 10px;
+				margin-left: 20px;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+			.hd.delete{
+				margin: 5px 10px 0 0;
+				cursor: pointer;
+			}
+			.content{
+				margin: 20px;
+				font: 12px "宋体";
+				line-height: 1.5em;
+			}
+			.button button{
+				width: 80px;
+			    height: 30px;
+			    border-radius: 5px;
+			    background: #2B6FEB;
+				border-style:none;
+				color: white;
+				font-size: 15px;
+				margin-bottom: 20px;
+				margin-left: 110px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="head">
+				<div class="hd title">
+					标题栏我要超出去了我要超出去了我要超出去了
+				</div>
+				<div class="hd delete">
+					×
+				</div>
+			</div>
+			<div class="body">
+				<div class="content">
+					内容区我会自适应我会自适应我会自适应我会自适应
+					我会自适应我会自适应我会自适应我会自适应我会自适应
+					我会自适应我会自适应我会自适应我会自适应
+					
+				</div>
+				<div class="button">
+					<button type="submit">保存</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
